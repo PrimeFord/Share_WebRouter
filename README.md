@@ -29,7 +29,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Preview
 
-[Preview Here](https://moonlit-pasca-46d1e5.netlify.app)
+[Preview Here](https://hilarious-daffodil-d9f7b0.netlify.app)
 
 ![screenshot](./public/image/snip.png)
 ![screenshot](./public/image/snip2.png)
@@ -39,6 +39,9 @@ Clone or download this repository and run with a local server of open `index.htm
 ![screenshot](./public/image/snip6.png)
 ![screenshot](./public/image/snip7.png)
 ![screenshot](./public/image/snip8.png)
+![screenshot](./public/image/snip9.png)
+![screenshot](./public/image/snip10.png)
+![screenshot](./public/image/snip11.png)
 
 ## Contact
 
