@@ -3,8 +3,13 @@ import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
+  const [active, setActive] = React.useState(true);
+  window.addEventListener("scroll", () => {
+    console.log(scrollY);
+    scrollY >= 20 ? setActive(true) : setActive(false);
+  });
   return (
-    <nav>
+    <nav className={`${active && "active"}`}>
       <Link to="/">
         <img
           className="w-[8rem] h-[2.5rem] flex-grow-1"

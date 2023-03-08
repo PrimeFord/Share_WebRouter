@@ -7,6 +7,8 @@ nav {
   align-items: center;
   padding: 0rem 3.5rem;
   position: fixed;
+  transition: all 0.45s ease-in-out;
+  scroll-behavior: smooth;
 }
 nav div {
   display: flex;
@@ -16,4 +18,10 @@ nav div {
 nav Link img {
   width: 10rem;
   height: 3rem;
+}
+nav.active {
+  background-color: white;
+  height: 5rem;
+  padding: 0rem 3rem;
+  transition: all 0.35s ease-in-out;
 }
