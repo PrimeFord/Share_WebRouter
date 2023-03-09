@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   const [active, setActive] = React.useState(true);
+  const [focus, setFocus] = useState();
+
   window.addEventListener("scroll", () => {
     console.log(scrollY);
     scrollY >= 20 ? setActive(true) : setActive(false);
