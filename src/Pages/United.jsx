@@ -1,12 +1,14 @@
 import React from "react";
 import NavBar from "../Components/NavBar";
+import NavRes from "../Components/NavRes";
 
 const United = () => {
   return (
     <div className="bg-[#5a4ff471] h-[100vh] w-[100%] ">
       <NavBar />
-      <div className="w-[100%] h-[100%] flex justify-center items-center pt-[3.5rem]">
-        <div className=" w-[45%] h-[70%] bg-[#16002c] flex flex-col items-center m-[auto] gap-[2rem] text-[white] pt-[3.5rem] rounded-[3rem] p-8">
+      {/* <NavRes/> */}
+      <div className="w-[100%] h-[100%] flex justify-center items-center p-[1rem] pt-[3.5rem]">
+        <div className="w-[100%] lg:w-[45%] h-[70%] bg-[#16002c] flex flex-col items-center m-[auto] gap-[2rem] text-[white] pt-[3.5rem] rounded-[3rem] p-8">
           <h1 className=" text-[1.25rem]">Country & Languages</h1>
           <p className=" text-[1rem]">
             Choose your region and preferred language
@@ -69,7 +71,7 @@ const United = () => {
               </option>
             </select>
           </label>
-          <button className="w-[15rem] mt-6 py-2 bg-[#594ff4] text-[white] text-[1.15rem] hover:bg-[white] hover:text-[#594ff4] rounded-[6rem]">
+          <button className="w-[15rem] mt-[2rem] lg:mt-6 py-2 bg-[#594ff4] text-[white] text-[1.15rem] hover:bg-[white] hover:text-[#594ff4] rounded-[6rem]">
             Submit
           </button>
         </div>

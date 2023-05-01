@@ -6,6 +6,7 @@ const Community = () => {
   return (
     <div className="bg-[#e4dfff] h-fit w-[100%]">
       <NavBar />
+      {/* <NavRes/> */}
       <CommunityLayout
         p1="Welcome to"
         h1="Connect, share and learn with your crew"

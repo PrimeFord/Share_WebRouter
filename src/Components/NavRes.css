@@ -5,7 +5,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0rem 3.5rem;
+  padding: 0rem 1rem;
   position: fixed;
   transition: all 0.45s ease-in-out;
   scroll-behavior: smooth;
@@ -22,7 +22,7 @@ nav Link img {
 nav.active {
   background-color: white;
   height: 5rem;
-  padding: 0rem 3rem;
+  padding: 0rem 1.2rem;
   transition: all 0.35s ease-in-out;
 }
 .border {

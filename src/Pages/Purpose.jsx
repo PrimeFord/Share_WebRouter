@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import NavBar from "../Components/NavBar";
 import PageLayout from "../Components/PageLayout";
 
@@ -6,6 +6,7 @@ const Purpose = () => {
   return (
     <div className="bg-[#e8d6d5] h-fit w-[100%]">
       <NavBar />
+      {/* <NavRes/> */}
       <PageLayout
         p1="Our purpose"
         h1="To build a world where together, we’re more than investors."

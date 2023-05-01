@@ -6,6 +6,7 @@ const Learn = () => {
   return (
     <div>
       <NavBar />
+      {/* <NavRes/> */}
       <LearnLayout
         p1="Featured"
         h1="What is earning season and why should you care?"

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./NavBar.css";
+import "./NavRes.css";
 
-const NavBar = () => {
+const NavRes = () => {
   const [active, setActive] = React.useState(true);
   const [focus, setFocus] = useState();
   const [index, setIndex] = useState(0);
@@ -39,8 +39,10 @@ const NavBar = () => {
           alt=""
         />
       </Link>
-      <div className="w-[60%] text-[1.15rem]">
-        <Link
+
+      <div className="text-[1.15rem]">
+        <img className="h-[2.5rem] w-[2.5rem]" src="/image/menu.svg" alt="" />
+        {/* <Link
           to="/Purpose"
           className={`text-[#8d8d8d] ${
             index === 2 ? "text-black border-solid border-b-2 border-black" : ""
@@ -83,10 +85,10 @@ const NavBar = () => {
             alt=""
           />
           <span>United Kingdom</span>
-        </Link>
+        </Link> */}
       </div>
     </nav>
   );
 };
 
-export default NavBar;
+export default NavRes;

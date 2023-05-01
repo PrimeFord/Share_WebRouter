@@ -6,6 +6,7 @@ const Career = () => {
   return (
     <div className="bg-[#e4dfff] h-fit w-[100%] ">
       <NavBar />
+      {/* <NavRes/> */}
       <CareerLayout
         p1="Careers"
         h1="Ready to make investing social with us?"
